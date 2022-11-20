@@ -8,7 +8,7 @@ body {
     }
     .menu-principal {
     width: 100%;
-    background-color: #910606;
+    background-color: #b90606;
     height: 60px;
     }
     main, .content {
@@ -32,7 +32,7 @@ body {
     float: right;
     }
     .header-2 {
-    background-color: #0818a8;
+    background-color: #0226b9;
     width: 980px;
     margin: 0 auto;
     padding: 16px;
@@ -58,7 +58,7 @@ body {
     }
     
     .menu ul li a {
-        color: #f00606;
+        color: #f30e0e;
         text-decoration: none;
         font-size: 18px;
         text-transform: uppercase;
@@ -137,7 +137,7 @@ body {
     }
     
     li.slick-active button {
-        background: #f30909;
+        background: #060481;
     }
     
     .slick-dots li {
@@ -149,20 +149,28 @@ body {
         text-align: center;
     }
     .texto-destaque strong {
-        color: #f80f0f;
+        color: #f3ebeb;
     }
     .texto-destaque h1 {
         text-transform: uppercase;
         font-size: 35px;
-        color: #1e41e0;
+        color: #0e33ec;
     }
     .texto-destaque p {
         font-size: 18px;
         text-align: center;
-        color: #ec0606;
+        color: #b60707;
     }
     
     .col-3 {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px; 
+        width: 29%;
+        float: left;
+        position: relative;
+    }
+    .col-7 {
         text-align: center;
         padding-left: 15px;
         padding-right: 15px; 
@@ -177,7 +185,7 @@ body {
     }
     .bloco-imagem {
         height: 300px;
-        border: 1px solid #f10a0a;
+        border: 1px solid #cf0707;
         padding-top: 15px;
         padding-bottom: 15px;
         margin-left: 10px;
@@ -194,14 +202,14 @@ body {
     }
     
     .bloco-imagens-texto {
-        background-color: #f02020;
+        background-color: #f8f7f7;
     }
     .bloco-imagens-texto:before {
         width: 100%;
         display: inline-block;
         content: '';
         height: 52px;
-        background: #0732f1;
+        background: #f8f8f8;
         background-image: url('../img/setinha.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -211,7 +219,7 @@ body {
         display: inline-block;
         content: '';
         height: 70px;
-        background: #d30606;
+        background: #f7f3f3;
     } 
     .col-4 {
         float: left;
