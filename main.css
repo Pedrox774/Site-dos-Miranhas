@@ -149,7 +149,7 @@ body {
         text-align: center;
     }
     .texto-destaque strong {
-        color: #f3ebeb;
+        color: #c70505;
     }
     .texto-destaque h1 {
         text-transform: uppercase;
@@ -202,14 +202,14 @@ body {
     }
     
     .bloco-imagens-texto {
-        background-color: #f8f7f7;
+        background-color: #ce0808;
     }
     .bloco-imagens-texto:before {
         width: 100%;
         display: inline-block;
         content: '';
         height: 52px;
-        background: #f8f8f8;
+        background: #010e80;
         background-image: url('../img/setinha.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -219,7 +219,7 @@ body {
         display: inline-block;
         content: '';
         height: 70px;
-        background: #f7f3f3;
+        background: #1904da;
     } 
     .col-4 {
         float: left;
