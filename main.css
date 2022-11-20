@@ -223,6 +223,11 @@ body {
         width: 50%;
         text-align: center;
     }
+    .col-6 {
+        float: left;
+        width: 120%;
+        text-align: right;
+    }
     .col-4 img {
     cursor: pointer;
      margin: 0 auto;
