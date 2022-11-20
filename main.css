@@ -85,6 +85,7 @@ body {
     .col-100 {
         width: 100%;
         float: left;
+        text-align: center;
         position: relative;
     }
     button.slick-prev {
@@ -119,7 +120,7 @@ body {
     }
     .slick-dots li button {
         font-size: 0px;
-        border: 5px solid #f30707;
+        border: 5px solid #f30f0f;
         width: 26px;
         height: 26px;
         background: transparent;
@@ -152,11 +153,12 @@ body {
     }
     .texto-destaque h1 {
         text-transform: uppercase;
-        font-size: 30px;
+        font-size: 35px;
         color: #1e41e0;
     }
     .texto-destaque p {
-        font-size: 15px;
+        font-size: 18px;
+        text-align: center;
         color: #ec0606;
     }
     
@@ -176,7 +178,6 @@ body {
     .bloco-imagem {
         height: 300px;
         border: 1px solid #f10a0a;
-        background-color: #d30606;
         padding-top: 15px;
         padding-bottom: 15px;
         margin-left: 10px;
@@ -215,6 +216,11 @@ body {
     .col-4 {
         float: left;
         width: 25%;
+        text-align: center;
+    }
+    .col-5 {
+        float: left;
+        width: 50%;
         text-align: center;
     }
     .col-4 img {
@@ -262,16 +268,16 @@ body {
     }
     
     .clock {
-        color: #b60b0b!important;
+        color: #c90707!important;
     }
     
     .clock:before {
         content: '';
-        width:  15px;
-        height: 15px;
+        width:  30px;
+        height: 30px;
         display: inline-block;
-        background-image: url('../img/clock.png');
-        float: left;
+        background-image: url('../image/Teia.jpg');
+        float: right;
         background-repeat: no-repeat;
         padding-left: 5px;
     }
@@ -282,15 +288,19 @@ body {
         height: 24px;
         display: inline-block;
         float: left;
+        background-image: url('../image/Teia.jpg');
         background-repeat: no-repeat;
         padding-left: 5px;
     }
     .local:before {
         background-image: url('../img/local.png');
+        background-image: url('../image/Teia.jpg');
     }  
     .emailico:before {
         background-image: url('../img/emailico.png');
+        background-image: url('../image/Teia.jpg');
     }  
     .telefoneico:before {
         background-image: url('../img/telefoneico.png');
+        background-image: url('../image/Teia.jpg');
     }  
